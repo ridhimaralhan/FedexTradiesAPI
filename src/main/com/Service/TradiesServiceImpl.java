@@ -15,7 +15,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import main.com.model.AuthFile;
 import main.com.model.Tradie;
-import main.com.model.Tradies;
+
+
 public class TradiesServiceImpl {
 	public String Oauth() {
 	try
@@ -82,48 +83,6 @@ public class TradiesServiceImpl {
 		}
 		return Tradies;
 	}
-
-/*	public Airport getAirportbyCode(String Code) {
-		List<Airport> airports = getAllAirports();
-		for (Airport ap : airports) {
-			if (ap.getCode().equals(Code)) {
-				return ap;
-			}
-		}
-		return null;
-	}
-
-	public List<Airport> getAirportbyCountry(String Country) {
-		List<Airport> airports = getAllAirports();
-		List<Airport> myAirports = new ArrayList<Airport>();
-		for (Airport ap : airports) {
-			if (ap.getCountry().getCode().equals(Country)) {
-				myAirports.add(ap);
-			}
-		}
-		return myAirports;
-	}
-
-	public List<Airport> getInternationalAirport() {
-		List<Airport> airports = getAllAirports();
-		List<Airport> intlAp = new ArrayList<Airport>();
-		for (Airport ap : airports) {
-			if (ap.isInternationalAirport()) {
-				intlAp.add(ap);
-			}
-		}
-		return intlAp;
-	}
-
-	public List<Airport> getRegionalAirport() {
-		List<Airport> airports = getAllAirports();
-		List<Airport> regAp = new ArrayList<Airport>();
-		for (Airport ap : airports) {
-			if (ap.isRegionalAirport()) {
-				regAp.add(ap);
-			}
-		}
-		return regAp;
-	}*/
-
 }
+
+
